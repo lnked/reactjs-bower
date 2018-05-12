@@ -1,0 +1,7 @@
+{
+  "name": "reactjs",
+  "version": "16.3.2",
+  "description": "Bower package for React",
+  "main": "index.js",
+  "license": "MIT"
+}
