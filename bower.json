@@ -6,6 +6,6 @@
   "description": "Bower package for React",
   "main": "[\"react.production.js\", \"react-dom.production.js\"]",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/lnked/reactjs-bower",
   "private": false
 }
