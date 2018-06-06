@@ -2,12 +2,14 @@ const path = require('path');
 const https = require('https')
 const fs = require('fs');
 
+const version = '16.3.2';
+
 const resource = [
-    'https://unpkg.com/react@16.4.0/umd/react.production.min.js',
-    'https://unpkg.com/react@16.4.0/umd/react.development.js',
-    'https://unpkg.com/react-dom@16.4.0/umd/react-dom.development.js',
-    'https://unpkg.com/react@16.4.0/umd/react.production.min.js',
-    'https://unpkg.com/react-dom@16.4.0/umd/react-dom.production.min.js'
+    `https://unpkg.com/react@${version}/umd/react.production.min.js`,
+    `https://unpkg.com/react@${version}/umd/react.development.js`,
+    `https://unpkg.com/react-dom@${version}/umd/react-dom.development.js`,
+    `https://unpkg.com/react@${version}/umd/react.production.min.js`,
+    `https://unpkg.com/react-dom@${version}/umd/react-dom.production.min.js`
 ];
 
 const download = function(url) {
